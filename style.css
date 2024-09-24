@@ -36,6 +36,7 @@ body {
 
 .header {
     background-color: #333533;
+    height: 376px;
 }
 
 .header .title {
@@ -50,11 +51,20 @@ body {
 
 .header .button {
     color: #ffd100;
-    padding: 10px;
     font-size: 16px;
+    border: 1px solid #ffd100;
+    border-radius: 4px;
 }
 
 .header .language{
     color: #fafafa;
     font-size: 16px;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+}
+
+.header img {
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
 }
