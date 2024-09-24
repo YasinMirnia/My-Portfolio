@@ -24,3 +24,31 @@
     font-family: "Poppins",sans-serif;
     color: #333533;
 }
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.header {
+    background-color: #333533;
+}
+
+.header .title {
+    color: #ffd100;
+}
+
+.header .position {
+    color: #fafafa;
+}
+
+.header .button {
+    color: #ffd100;
+}
+
+.header .language{
+    color: #fafafa;
+}
