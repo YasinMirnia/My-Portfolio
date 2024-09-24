@@ -37,9 +37,16 @@ body {
 .header {
     background-color: #333533;
     height: 376px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header .title {
+.title {
+    margin: 0 50px;
+}
+
+.header .title h1 {
     color: #ffd100;
     font-size: 64px;
 }
