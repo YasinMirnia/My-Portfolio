@@ -39,10 +39,12 @@ body {
 
 .header .title {
     color: #ffd100;
+    font-size: 64px;
 }
 
 .header .position {
     color: #fafafa;
+    font-size: 32px;
 }
 
 .header .button {
