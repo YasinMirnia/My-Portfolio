@@ -69,6 +69,8 @@ h2 {
     font-size: 16px;
     border: 1px solid #ffd100;
     border-radius: 4px;
+    padding: 8px 24px;
+    display: inline-block;
 }
 
 .header .language{
@@ -76,6 +78,7 @@ h2 {
     font-size: 16px;
     border: 1px solid #fafafa;
     border-radius: 4px;
+    padding: 8px 24px;
 }
 
 .header img {
