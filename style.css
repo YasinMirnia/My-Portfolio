@@ -21,18 +21,20 @@
 
 * {
     font-family: "Poppins",sans-serif;
-    color: #333533;
     box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
 }
 
 body {
     background-color: #fafafa;
     margin: 0;
+    color: #333533;
 }
+
+a {
+    text-decoration: none;
+    color: #333533;
+}
+
 
 h2 {
     font-weight: 300;
@@ -139,4 +141,35 @@ ul {
 
 nav {
     width: 250px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+nav li .active:hover {
+    font-weight: 500;
+}
+
+nav li .active:active {
+    font-weight: 500;
+}
+
+nav ul li .marker {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #333533;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+nav ul li:active .marker, nav ul li:hover .marker {
+    background-color: #333533;
+    color: #ffd100;
+}
+
+nav ul li {
+    cursor: pointer;
 }
