@@ -34,6 +34,10 @@ body {
     background-color: #fafafa;
 }
 
+h2 {
+    font-weight: 300;
+}
+
 .header {
     background-color: #333533;
     height: 376px;
@@ -49,11 +53,15 @@ body {
 .header .title h1 {
     color: #ffd100;
     font-size: 64px;
+    margin: 0px;
+    line-height: 0.5;
 }
 
 .header .position {
     color: #fafafa;
     font-size: 32px;
+    line-height: 57px; 
+    margin: 40px 0px;
 }
 
 .header .button {
