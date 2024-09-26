@@ -7,18 +7,26 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/Fonts/ttf/Poppins-Medium.ttf'); format:('ttf');
-    src: url('assets/Fonts/WOFF/Poppins-Medium.woff'); format:('woff');
+    src: url('assets/Fonts/ttf/Poppins-Regular.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-Regular.woff'); format:('woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/Fonts/ttf/Poppins-Regular.ttf'); format:('ttf');
-    src: url('assets/Fonts/WOFF/Poppins-Regular.woff'); format:('woff');
+    src: url('assets/Fonts/ttf/Poppins-Medium.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-Medium.woff'); format:('woff');
     font-weight: 500;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/Fonts/ttf/Poppins-SemiBold.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-SemiBold.woff'); format:('woff');
+    font-weight: 600;
+}
+
+/* Global */
 * {
     font-family: "Poppins",sans-serif;
     box-sizing: border-box;
@@ -40,6 +48,14 @@ h2 {
     font-weight: 300;
 }
 
+h5 {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #a0a0a0;
+}
+
 ul li {
     list-style: none;
 }
@@ -48,6 +64,7 @@ ul {
     padding: 0;
 }
 
+/* HEADER */
 .header .title i {
     color: #ffd100;
 }
@@ -134,15 +151,18 @@ ul {
     border-radius: 50%;
 }
 
-
+/* layout of page */
 .sections {
     width: 700px;
 }
 
+/* NAVABAR */
 nav {
     width: 250px;
     font-size: 24px;
     font-weight: 300;
+    border-right: 1px solid #333533;
+    margin: 40px 40px 0px 0px;
 }
 
 nav ul li:hover .active, nav li:active .active {
@@ -177,3 +197,56 @@ nav ul li:not(:last-child)::after {
 nav ul li {
     cursor: pointer;
 }
+
+/* ABOUT ME */
+body .sections .about-me {
+    width: 786px;
+    height: 500px;
+}
+
+.about-me h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.about-me p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31.68px;
+}
+
+.about-me p span {
+    font-weight: 500;
+}
+
+/* CONTACT ME */
+
+.about-me .contact {
+    display: flex;
+}
+
+.contact div {
+    width: 50%;
+}
+
+.contact p {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.fa-copy {
+    cursor: pointer;
+    margin-left: 8px;
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+.fa-copy:hover {
+    color: #333533;
+}
+
+/* SOCIAL */
+
