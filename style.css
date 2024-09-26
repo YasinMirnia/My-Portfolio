@@ -170,6 +170,14 @@ nav ul li:active .marker, nav ul li:hover .marker {
     color: #ffd100;
 }
 
+nav ul li:not(:last-child)::after {
+    content: "";
+    border-left: 1px dashed #333533;
+    display: block;
+    height: 60px;
+    margin: 16px 0px 16px 20px;
+}
+
 nav ul li {
     cursor: pointer;
 }
