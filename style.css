@@ -145,11 +145,7 @@ nav {
     font-weight: 300;
 }
 
-nav li .active:hover {
-    font-weight: 500;
-}
-
-nav li .active:active {
+nav ul li:hover .active, nav li:active .active {
     font-weight: 500;
 }
 
