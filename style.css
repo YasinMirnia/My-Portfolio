@@ -7,48 +7,79 @@
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/Fonts/ttf/Poppins-Medium.ttf'); format:('ttf');
-    src: url('assets/Fonts/WOFF/Poppins-Medium.woff'); format:('woff');
+    src: url('assets/Fonts/ttf/Poppins-Regular.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-Regular.woff'); format:('woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Poppins';
-    src: url('assets/Fonts/ttf/Poppins-Regular.ttf'); format:('ttf');
-    src: url('assets/Fonts/WOFF/Poppins-Regular.woff'); format:('woff');
+    src: url('assets/Fonts/ttf/Poppins-Medium.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-Medium.woff'); format:('woff');
     font-weight: 500;
 }
 
-* {
-    font-family: "Poppins",sans-serif;
-    color: #333533;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/Fonts/ttf/Poppins-SemiBold.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-SemiBold.woff'); format:('woff');
+    font-weight: 600;
 }
 
-a {
-    text-decoration: none;
+/* Global */
+* {
+    font-family: "Poppins",sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #fafafa;
     margin: 0;
+    color: #333533;
 }
+
+a {
+    text-decoration: none;
+    color: #333533;
+}
+
 
 h2 {
     font-weight: 300;
 }
 
+h5 {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #a0a0a0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+/* HEADER */
 .header .title i {
     color: #ffd100;
+}
+
+.header,.container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
 }
 
 .header {
     background-color: #333533;
     height: 376px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 40px 0px;
 }
 
 .title {
@@ -119,4 +150,163 @@ h2 {
     height: 290px;
     width: 290px;
     border-radius: 50%;
+}
+
+/* layout of page */
+.sections {
+    width: 700px;
+}
+
+/* NAVABAR */
+nav {
+    width: 250px;
+    font-size: 24px;
+    font-weight: 300;
+    border-right: 1px solid #333533;
+    margin: 40px 40px 0px 0px;
+}
+
+nav ul li:hover .active, nav li:active .active {
+    font-weight: 500;
+}
+
+nav ul li .marker {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #333533;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+nav ul li:active .marker, nav ul li:hover .marker {
+    background-color: #333533;
+    color: #ffd100;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "";
+    border-left: 1.5px dashed #333533;
+    display: block;
+    height: 60px;
+    margin: 16px 0px 16px 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+/* ABOUT ME */
+body .sections .about-me {
+    width: 786px;
+    height: 500px;
+}
+
+.about-me h4 {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.about-me p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31.68px;
+}
+
+.about-me p span {
+    font-weight: 500;
+}
+
+/* CONTACT ME */
+.about-me .contact {
+    display: flex;
+}
+
+.contact div {
+    width: 50%;
+}
+
+.contact p {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.fa-copy {
+    cursor: pointer;
+    margin-left: 8px;
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+.fa-copy:hover {
+    color: #333533;
+}
+
+/* SOCIAL */
+.social li{
+    display: inline-block;
+    margin: 0px 23px 0px 0px;
+    width: 56px;
+    height: 56px;
+}
+
+.social li span {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+}
+
+.linkedin {
+    background-image: url("assets/Social/linkedin.png");
+}
+li:hover .linkedin {
+    background-image: url("assets/Social-hover/linkedin-hover.png");
+}
+
+.github {
+    background-image: url("assets/Social/github.png");
+}
+li:hover .github {
+    background-image: url("assets/Social-hover/github-hover.png");
+}
+
+.stackoverflow {
+    background-image: url("assets/Social/stackoverflow.png");
+}
+li:hover .stackoverflow{
+    background-image: url("assets/Social-hover/stackoverflow-hover.png");
+}
+
+.telegeram {
+    background-image: url("assets/Social/telegram.png");
+}
+li:hover .telegeram {
+    background-image: url("assets/Social-hover/telegram-hover.png");
+}
+
+.whatsapp {
+    background-image: url("assets/Social/whatsapp.png");
+}
+li:hover .whatsapp {
+    background-image: url("assets/Social-hover/whatsapp-hover.png");
+}
+
+.twitter {
+    background-image: url("assets/Social/twitter.png");
+}
+li:hover .twitter {
+    background-image: url("assets/Social-hover/twitter-hover.png");
+}
+
+.instagram {
+    background-image: url("assets/Social/instagram.png");
+}
+li:hover .instagram {
+    background-image: url("assets/Social-hover/instagram-hover.png");
 }
