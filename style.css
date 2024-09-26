@@ -30,6 +30,7 @@
 * {
     font-family: "Poppins",sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -221,7 +222,6 @@ body .sections .about-me {
 }
 
 /* CONTACT ME */
-
 .about-me .contact {
     display: flex;
 }
@@ -231,7 +231,7 @@ body .sections .about-me {
 }
 
 .contact p {
-    margin: 0px;
+    margin-top: 0px;
     font-size: 18px;
     font-weight: 400;
     line-height: 40px;
@@ -249,4 +249,64 @@ body .sections .about-me {
 }
 
 /* SOCIAL */
+.social li{
+    display: inline-block;
+    margin: 0px 23px 0px 0px;
+    width: 56px;
+    height: 56px;
+}
 
+.social li span {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+}
+
+.linkedin {
+    background-image: url("assets/Social/linkedin.png");
+}
+li:hover .linkedin {
+    background-image: url("assets/Social-hover/linkedin-hover.png");
+}
+
+.github {
+    background-image: url("assets/Social/github.png");
+}
+li:hover .github {
+    background-image: url("assets/Social-hover/github-hover.png");
+}
+
+.stackoverflow {
+    background-image: url("assets/Social/stackoverflow.png");
+}
+li:hover .stackoverflow{
+    background-image: url("assets/Social-hover/stackoverflow-hover.png");
+}
+
+.telegeram {
+    background-image: url("assets/Social/telegram.png");
+}
+li:hover .telegeram {
+    background-image: url("assets/Social-hover/telegram-hover.png");
+}
+
+.whatsapp {
+    background-image: url("assets/Social/whatsapp.png");
+}
+li:hover .whatsapp {
+    background-image: url("assets/Social-hover/whatsapp-hover.png");
+}
+
+.twitter {
+    background-image: url("assets/Social/twitter.png");
+}
+li:hover .twitter {
+    background-image: url("assets/Social-hover/twitter-hover.png");
+}
+
+.instagram {
+    background-image: url("assets/Social/instagram.png");
+}
+li:hover .instagram {
+    background-image: url("assets/Social-hover/instagram-hover.png");
+}
