@@ -1,3 +1,11 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/Fonts/ttf/Poppins-ExtraLight.ttf'); format:('ttf');
+    src: url('assets/Fonts/WOFF/Poppins-ExtraLight.woff'); format:('woff');
+    font-weight: 200;
+}
+
 @font-face {
     font-family: 'Poppins';
     src: url('assets/Fonts/ttf/Poppins-Light.ttf'); format:('ttf');
@@ -26,6 +34,7 @@
     font-weight: 600;
 }
 
+
 /* Global */
 * {
     font-family: "Poppins",sans-serif;
@@ -33,11 +42,13 @@
     scroll-behavior: smooth;
 }
 
+
 body {
     background-color: #fafafa;
     margin: 0;
     color: #333533;
 }
+
 
 a {
     text-decoration: none;
@@ -49,28 +60,31 @@ h2 {
     font-weight: 300;
 }
 
-h5 {
-    margin-bottom: 3px;
-    font-weight: 500;
-    font-size: 18px;
+
+h4 {
+    font-size: 20px;
     line-height: 20px;
-    color: #a0a0a0;
+    font-weight: 600;
 }
+
 
 ul li {
     list-style: none;
 }
 
+
 ul {
     padding: 0;
 }
+
 
 /* HEADER */
 .header .title i {
     color: #ffd100;
 }
 
-.header,.container {
+.header,
+.container {
     display: flex;
     justify-content: center;
     padding: 40px 0px;
@@ -111,7 +125,8 @@ ul {
     margin: 0px 2px;
 }
 
-.button:hover , .button:hover i {
+.button:hover,
+.button:hover i {
     background-color: #ffd100;
     color: #333533;
 }
@@ -140,7 +155,8 @@ ul {
     margin-left: 2px ;
 }
 
-.language:hover , .language:hover i {
+.language:hover,
+.language:hover i {
     background-color: #fafafa;
     color: #333533;
     opacity: 1;
@@ -166,7 +182,8 @@ nav {
     margin: 40px 40px 0px 0px;
 }
 
-nav ul li:hover .active, nav li:active .active {
+nav ul li:hover .active,
+nav li:active .active {
     font-weight: 500;
 }
 
@@ -182,7 +199,8 @@ nav ul li .marker {
     margin-right: 12px;
 }
 
-nav ul li:active .marker, nav ul li:hover .marker {
+nav ul li:active .marker,
+nav ul li:hover .marker {
     background-color: #333533;
     color: #ffd100;
 }
@@ -200,16 +218,19 @@ nav ul li {
 }
 
 /* ABOUT ME */
+.about-me h5 {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #a0a0a0;
+}
+
 body .sections .about-me {
-    width: 786px;
+    width: 840px;
     height: 500px;
 }
 
-.about-me h4 {
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 600;
-}
 
 .about-me p {
     font-weight: 400;
@@ -249,6 +270,11 @@ body .sections .about-me {
 }
 
 /* SOCIAL */
+.social {
+    padding-top: 16px;
+    margin: 0px;
+}
+
 .social li{
     display: inline-block;
     margin: 0px 23px 0px 0px;
@@ -309,4 +335,71 @@ li:hover .twitter {
 }
 li:hover .instagram {
     background-image: url("assets/Social-hover/instagram-hover.png");
+}
+
+/* MY SKILLS */
+.skills {
+    width: 840px;
+}
+.skills h4 {
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.technology li,
+.tools li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid #a0a0a0;
+    border-radius: 8px;
+    padding: 10px 24px;
+    margin-bottom: 20px;
+}
+
+.technology li span img,
+.tools li span img {
+   vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+}
+
+.technology li span:first-child,
+.tools li span:first-child {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;  
+}
+
+.technology li span:last-child,
+.tools li span:last-child {
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.technology li span i,
+.tools li span i {
+    font-size: 15px;
+    color: #a0a0a0;
+    padding: 10px 5px 10px 12px ;
+    border-left: 1px solid #a0a0a0;
+}
+
+.others {
+    width: 840px;
+    height: 164px;
+}
+
+.others li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 40px;
+    border: 1.5px solid #a0a0a0;
+    border-radius: 24px;
+    margin: 10px 5px;
 }
