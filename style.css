@@ -394,14 +394,113 @@ li:hover .instagram {
 }
 
 .others li {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 20px;
-    padding: 16px 40px;
-    border: 1.5px solid #a0a0a0;
-    border-radius: 24px;
-    margin: 10px 5px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 16px 40px;
+  border: 1.5px solid #a0a0a0;
+  border-radius: 24px;
+  margin: 10px 5px;
 }
 
 /* MY PROJECTS */
+.project {
+  width: 264px;
+  height: 412px;
+  border: 1.5px solid #a0a0a0;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  margin-bottom: 35px;
+}
+
+.project h5 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 12px 0px 0px;
+}
+
+.project p {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 5px 0px 0px;
+}
+
+.project .placeholder {
+  width: 244px;
+  height: 200px;
+}
+
+.tech {
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.tech ul {
+  margin: 0px;
+}
+
+.tech li img {
+  width: 24px;
+  height: 24px;
+}
+
+.tech ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.html {
+  margin-left: 12px;
+}
+
+.project .demo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.demo span:first-child {
+  padding: 8px 29px;
+}
+
+/* .demo span:first-child a {
+  color: #787878;
+} */
+
+.demo span:first-child a:hover {
+  color: #353535;
+}
+
+.demo span:last-child a {
+  padding: 8px 10px;
+  border: 1.5px solid #333533;
+  border-radius: 3.31px;
+}
+
+.demo span:last-child a:hover {
+  color: #fafafa;
+  background-color: #333533;
+}
+
+.first,
+.second {
+  display: flex;
+}
+
+#my-projects {
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
