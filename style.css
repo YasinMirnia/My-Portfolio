@@ -83,7 +83,8 @@ ul {
     color: #ffd100;
 }
 
-.header,.container {
+.header,
+.container {
     display: flex;
     justify-content: center;
     padding: 40px 0px;
@@ -124,7 +125,8 @@ ul {
     margin: 0px 2px;
 }
 
-.button:hover , .button:hover i {
+.button:hover,
+.button:hover i {
     background-color: #ffd100;
     color: #333533;
 }
@@ -153,7 +155,8 @@ ul {
     margin-left: 2px ;
 }
 
-.language:hover , .language:hover i {
+.language:hover,
+.language:hover i {
     background-color: #fafafa;
     color: #333533;
     opacity: 1;
@@ -179,7 +182,8 @@ nav {
     margin: 40px 40px 0px 0px;
 }
 
-nav ul li:hover .active, nav li:active .active {
+nav ul li:hover .active,
+nav li:active .active {
     font-weight: 500;
 }
 
@@ -195,7 +199,8 @@ nav ul li .marker {
     margin-right: 12px;
 }
 
-nav ul li:active .marker, nav ul li:hover .marker {
+nav ul li:active .marker,
+nav ul li:hover .marker {
     background-color: #333533;
     color: #ffd100;
 }
@@ -265,6 +270,11 @@ body .sections .about-me {
 }
 
 /* SOCIAL */
+.social {
+    padding-top: 16px;
+    margin: 0px;
+}
+
 .social li{
     display: inline-block;
     margin: 0px 23px 0px 0px;
@@ -328,7 +338,13 @@ li:hover .instagram {
 }
 
 /* MY SKILLS */
-.technology li {
+.skills h4 {
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.technology li,
+.tools li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -338,25 +354,31 @@ li:hover .instagram {
     margin-bottom: 20px;
 }
 
-.technology li span img {
+.technology li span img,
+.tools li span img {
    vertical-align: middle;
     width: 36px;
     height: 36px;
+    margin-right: 6px;
 }
 
-.technology li span:first-child {
+.technology li span:first-child,
+.tools li span:first-child,
+.vscode {
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;  
 }
 
-.technology li span:last-child {
+.technology li span:last-child,
+.tools li span:last-child, {
     font-weight: 200;
     font-size: 20px;
     line-height: 20px;
 }
 
-.technology li span i {
+.technology li span i,
+.tools li span i {
     font-size: 15px;
     color: #a0a0a0;
     padding: 10px 5px 10px 12px ;
