@@ -475,9 +475,9 @@ li:hover .instagram {
   padding: 8px 29px;
 }
 
-/* .demo span:first-child a {
+.demo span:first-child a {
   color: #787878;
-} */
+}
 
 .demo span:first-child a:hover {
   color: #353535;
