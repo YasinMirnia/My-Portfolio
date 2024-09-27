@@ -227,7 +227,7 @@ nav ul li {
 }
 
 body .sections .about-me {
-    width: 786px;
+    width: 840px;
     height: 500px;
 }
 
@@ -338,9 +338,13 @@ li:hover .instagram {
 }
 
 /* MY SKILLS */
+.skills {
+    width: 840px;
+}
 .skills h4 {
     margin: 0px;
     padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .technology li,
@@ -363,15 +367,14 @@ li:hover .instagram {
 }
 
 .technology li span:first-child,
-.tools li span:first-child,
-.vscode {
+.tools li span:first-child {
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;  
 }
 
 .technology li span:last-child,
-.tools li span:last-child, {
+.tools li span:last-child {
     font-weight: 200;
     font-size: 20px;
     line-height: 20px;
@@ -383,4 +386,20 @@ li:hover .instagram {
     color: #a0a0a0;
     padding: 10px 5px 10px 12px ;
     border-left: 1px solid #a0a0a0;
+}
+
+.others {
+    width: 840px;
+    height: 164px;
+}
+
+.others li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 40px;
+    border: 1.5px solid #a0a0a0;
+    border-radius: 24px;
+    margin: 10px 5px;
 }
