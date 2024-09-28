@@ -435,6 +435,8 @@ li:hover .instagram {
   width: 244px;
   height: 200px;
   border-radius: 8px;
+  padding: 0px;
+  border: 0.5px solid #a0a0a0;
 }
 
 .tech {
