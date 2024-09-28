@@ -407,7 +407,7 @@ li:hover .instagram {
 /* MY PROJECTS */
 .project {
   width: 264px;
-  height: 412px;
+  height: 432px;
   border: 1.5px solid #a0a0a0;
   border-radius: 8px;
   padding: 10px;
@@ -435,6 +435,8 @@ li:hover .instagram {
   width: 244px;
   height: 200px;
   border-radius: 8px;
+  padding: 0px;
+  border: 0.5px solid #a0a0a0;
 }
 
 .tech {
@@ -504,4 +506,27 @@ li:hover .instagram {
   margin: 0;
   padding-top: 60px;
   padding-bottom: 30px;
+}
+
+.project .status {
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 0.6;
+  margin: 0px;
+}
+
+.project .status .circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 0.5px solid #fafafa;
+  border-radius: 50%;
+  background-color: #01cb12;
+  margin-left: 8px;
+  opacity: 0.9;
+}
+
+.project .status span:last-child {
+  font-weight: 400;
+  opacity: 0.6;
 }
