@@ -1,0 +1,86 @@
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: #fafafa;
+  }
+
+  .sections {
+    width: auto;
+  }
+
+  .nav {
+    display: none;
+    width: auto;
+  }
+
+  .header,
+  .container {
+    padding: 0px;
+  }
+
+  .header {
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .header img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 75px;
+  }
+
+  .header .title {
+    background-color: #fafafa;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    padding: 100px 20px 60px;
+  }
+
+  .header .title h1 {
+    font-size: 36px;
+    line-height: 50px;
+    color: #353535;
+  }
+
+  .header .title h2 {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0px;
+    color: #353535;
+  }
+
+  .header .title .position i {
+    color: #353535;
+  }
+
+  .header .title .button {
+    font-size: 14px;
+    line-height: 20px;
+    border-color: #353535;
+    width: 40%;
+    color: #353535;
+    display: inline-block;
+  }
+
+  .title .button i {
+    color: #353535;
+  }
+
+  .header .language {
+    margin: 0px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .sections section {
+    border-top: 1px solid #d9d9d9;
+  }
+}
