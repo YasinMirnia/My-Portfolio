@@ -48,6 +48,7 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 0.3s;
 }
 
 body {
