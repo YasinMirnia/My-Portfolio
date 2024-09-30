@@ -48,6 +48,7 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  transition: all 0.3s;
 }
 
 body {
@@ -341,6 +342,11 @@ li:hover .instagram {
 .skills {
   width: 840px;
 }
+
+.responsive-skills-headers {
+  display: none;
+}
+
 .skills h4 {
   margin: 0px;
   padding-top: 40px;
