@@ -3,13 +3,19 @@
     background-color: #fafafa;
   }
 
+  h4 {
+    margin-top: 0px;
+  }
+
   .sections {
-    width: auto;
+    width: 100%;
+    padding: 0 20px;
   }
 
   .nav {
     display: none;
     width: auto;
+    margin: auto;
   }
 
   .header,
@@ -82,5 +88,56 @@
 
   .sections section {
     border-top: 1px solid #d9d9d9;
+    padding: 60px 0px;
+  }
+
+  body .sections .about-me {
+    width: auto;
+  }
+
+  .sections .about-me h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .sections .about-me p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+  }
+
+  .contact div {
+    width: 100%;
+  }
+
+  .about-me .contact div h5 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+  .about-me .contact div p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 22px;
+    margin: 0;
+  }
+
+  .about-me h5 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  body .skills {
+    margin-top: 180px;
+    padding-top: 40px;
   }
 }
