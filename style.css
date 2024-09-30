@@ -343,10 +343,6 @@ li:hover .instagram {
   width: 840px;
 }
 
-.responsive-skills-headers {
-  display: none;
-}
-
 .skills h4 {
   margin: 0px;
   padding-top: 40px;
@@ -410,7 +406,6 @@ li:hover .instagram {
   margin: 10px 5px;
 }
 
-/* MY PROJECTS */
 .project {
   width: 264px;
   height: 432px;
@@ -427,7 +422,7 @@ li:hover .instagram {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  margin: 12px 0px 0px;
+  margin: 10px 0px 0px;
 }
 
 .project p {
@@ -450,7 +445,7 @@ li:hover .instagram {
   font-size: 13px;
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .tech ul {
@@ -475,7 +470,7 @@ li:hover .instagram {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 12px;
   font-weight: 500;
   font-size: 13px;
 }
@@ -520,6 +515,7 @@ li:hover .instagram {
   font-size: 13px;
   opacity: 0.6;
   margin: 0px;
+  display: block;
 }
 
 .project .status .circle {
@@ -536,4 +532,25 @@ li:hover .instagram {
 .project .status span:last-child {
   font-weight: 400;
   opacity: 0.6;
+}
+
+/* RESPONSIVE */
+h6 {
+  display: none;
+}
+
+.responsive-skills-headers {
+  display: none;
+}
+
+.tech-responsive {
+  display: none;
+}
+
+.project div .status-responsive {
+  display: none;
+}
+
+.img-h5-responsive {
+  display: block;
 }
