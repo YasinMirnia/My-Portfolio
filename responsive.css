@@ -93,6 +93,8 @@
 
   body .sections .about-me {
     width: auto;
+    height: auto;
+    padding-bottom: 0;
   }
 
   .sections .about-me h4 {
@@ -137,7 +139,82 @@
   }
 
   body .skills {
-    margin-top: 180px;
+    margin-top: 50px;
     padding-top: 40px;
+    width: 100%;
+  }
+
+  .skills h4 {
+    padding-top: 20px;
+  }
+
+  .not-responsive {
+    display: none;
+  }
+
+  .responsive-skills-headers {
+    display: block;
+  }
+
+  h4.responsive-skills-headers {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h5.responsive-skills-headers {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    color: #a0a0a0;
+    margin: 20px 0px 0;
+  }
+
+  .technology li,
+  .tools li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .technology li span img,
+  .tools li span img {
+    margin-right: 3px;
+  }
+
+  .technology li span:first-child,
+  .tools li span:first-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .technology li span:last-child,
+  .tools li span:last-child {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .technology li span i,
+  .tools li span i {
+    font-size: 12px;
+    padding: 5px 5px 5px 12px;
+    border-left: 0.5px solid rgba(160, 160, 160, 0.8);
+  }
+
+  .tools-others {
+    padding-top: 20px;
+  }
+
+  .others {
+    width: 100%;
+    height: auto;
+  }
+  .others li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 8px 24px;
+    margin: 5px 2.5px;
   }
 }

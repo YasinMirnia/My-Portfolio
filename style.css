@@ -342,6 +342,11 @@ li:hover .instagram {
 .skills {
   width: 840px;
 }
+
+.responsive-skills-headers {
+  display: none;
+}
+
 .skills h4 {
   margin: 0px;
   padding-top: 40px;
