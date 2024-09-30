@@ -1,0 +1,261 @@
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: #fafafa;
+  }
+
+  h4 {
+    margin-top: 0px;
+  }
+
+  .sections {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .nav {
+    display: none;
+    width: auto;
+    margin: auto;
+  }
+
+  .header,
+  .container {
+    padding: 0px;
+  }
+
+  .header {
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  .header img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 75px;
+  }
+
+  .header .title {
+    background-color: #fafafa;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    padding: 100px 20px 60px;
+  }
+
+  .header .title h1 {
+    font-size: 36px;
+    line-height: 50px;
+    color: #353535;
+  }
+
+  .header .title h2 {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0px;
+    color: #353535;
+  }
+
+  .header .title .position i {
+    color: #353535;
+  }
+
+  .header .title .button {
+    font-size: 14px;
+    line-height: 20px;
+    border-color: #353535;
+    width: 40%;
+    color: #353535;
+    display: inline-block;
+  }
+
+  .title .button i {
+    color: #353535;
+  }
+
+  .header .language {
+    margin: 0px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+
+  .sections section {
+    border-top: 1px solid #d9d9d9;
+    padding: 60px 0px;
+  }
+
+  body .sections .about-me {
+    width: auto;
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  .sections .about-me h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .sections .about-me p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .contact {
+    flex-wrap: wrap;
+  }
+
+  .contact div {
+    width: 100%;
+  }
+
+  .about-me .contact div h5 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+
+  .about-me .contact div p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 22px;
+    margin: 0;
+  }
+
+  .about-me h5 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  body .skills {
+    margin-top: 50px;
+    padding-top: 40px;
+    width: 100%;
+  }
+
+  .skills h4 {
+    padding-top: 20px;
+  }
+
+  .not-responsive {
+    display: none;
+  }
+
+  .responsive-skills-headers {
+    display: block;
+  }
+
+  h4.responsive-skills-headers {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h5.responsive-skills-headers {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+    color: #a0a0a0;
+    margin: 20px 0px 0;
+  }
+
+  .technology li,
+  .tools li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .technology li span img,
+  .tools li span img {
+    margin-right: 3px;
+  }
+
+  .technology li span:first-child,
+  .tools li span:first-child {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .technology li span:last-child,
+  .tools li span:last-child {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .technology li span i,
+  .tools li span i {
+    font-size: 12px;
+    padding: 5px 5px 5px 12px;
+    border-left: 0.5px solid rgba(160, 160, 160, 0.8);
+  }
+
+  .tools-others {
+    padding-top: 20px;
+  }
+
+  .others {
+    width: 100%;
+    height: auto;
+  }
+  .others li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 8px 24px;
+    margin: 5px 2.5px;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  #my-projects {
+    padding-top: 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+
+  .project {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    height: 262px;
+  }
+
+  .project .placeholder {
+    width: 123px;
+    height: 100px;
+  }
+
+  .project h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .first {
+    flex-direction: column;
+  }
+
+  .second {
+    flex-direction: column;
+  }
+
+  .third {
+    flex-direction: column;
+  }
+}
