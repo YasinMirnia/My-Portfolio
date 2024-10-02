@@ -539,6 +539,17 @@ li:hover .instagram {
   opacity: 1;
 }
 
+.project .status .circle-black {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 0.5px solid #fafafa;
+  border-radius: 50%;
+  background-color: #333533;
+  margin-left: 8px;
+  opacity: 1;
+}
+
 .project .status span:last-child {
   font-weight: 400;
   opacity: 0.6;
@@ -566,5 +577,9 @@ h6 {
 }
 
 .nav-mobile {
+  display: none;
+}
+
+.social-responsive {
   display: none;
 }
