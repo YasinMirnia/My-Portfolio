@@ -80,6 +80,10 @@ ul {
   padding: 0;
 }
 
+.strong {
+  font-weight: bold;
+}
+
 /* HEADER */
 .header .title i {
   color: #ffd100;
@@ -240,13 +244,13 @@ ul {
 
 body .sections .about-me {
   width: 840px;
-  height: 500px;
+  height: 600px;
 }
 
 .about-me p {
   font-weight: 400;
   font-size: 20px;
-  line-height: 31.68px;
+  line-height: 35px;
 }
 
 .about-me p span {
