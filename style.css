@@ -80,6 +80,10 @@ ul {
   padding: 0;
 }
 
+.strong {
+  font-weight: bold;
+}
+
 /* HEADER */
 .header .title i {
   color: #ffd100;
@@ -240,13 +244,13 @@ ul {
 
 body .sections .about-me {
   width: 840px;
-  height: 500px;
+  height: 600px;
 }
 
 .about-me p {
   font-weight: 400;
   font-size: 20px;
-  line-height: 31.68px;
+  line-height: 35px;
 }
 
 .about-me p span {
@@ -539,6 +543,17 @@ li:hover .instagram {
   opacity: 1;
 }
 
+.project .status .circle-black {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 0.5px solid #fafafa;
+  border-radius: 50%;
+  background-color: #333533;
+  margin-left: 8px;
+  opacity: 1;
+}
+
 .project .status span:last-child {
   font-weight: 400;
   opacity: 0.6;
@@ -566,5 +581,9 @@ h6 {
 }
 
 .nav-mobile {
+  display: none;
+}
+
+.social-responsive {
   display: none;
 }
